@@ -24,7 +24,10 @@ class SSJETrainer(BaseTrainer):
     def __init__(self, args: argparse.Namespace):
         super().__init__(args)
 
-        self._tokenizer = BertTokenizer.from_pretrained(args.pretrained_bert_name, do_lower_case=args.lowercase)
+        model_name = 'bert-base-uncased'
+        # self._tokenizer = BertTokenizer.from_pretrained(args.pretrained_bert_name, do_lower_case=args.lowercase)
+        self._tokenizer = BertTokenizer.from_pretrained(model_name, do_lower_case=args.lowercase)
+
 
         # save the predicted results
         self._predictions_path = os.path.join(self._log_path_predict, 'predicted_%s_epoch_%s.json')

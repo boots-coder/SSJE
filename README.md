@@ -25,6 +25,7 @@ tpqm
 
 use pip command
 
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -70,3 +71,11 @@ download the  ASTE-Dataset-V2 dataset from  [here]( https://github.com/xuuuluuu/
 python train_triplet.py --dataset 14res --max_span_size 8
 ```
 
+
+## HI bro listen ，
+the original code just like shit !
+here are some notes !
+
+- all pip install (suggest conda install replaced)
+- all tools should be latest ignoring the fucking requirements and ablove all
+- run the test.py in trainer first

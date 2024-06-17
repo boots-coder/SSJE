@@ -1,0 +1,15 @@
+No. 1 ：....
+ner_entity: 
+{'mic_precision': 85.42780748663101, 'mic_recall': 75.08813160987074, 'mic_f1_score': 79.9249530956848, 'mac_precision': 85.4388036206218, 'mac_recall': 75.09569285493349, 'mac_f1_score': 79.91245638465992}
+ rec: 
+{'mic_precision': 68.25775656324582, 'mic_recall': 57.54527162977867, 'mic_f1_score': 62.44541484716157, 'mac_precision': 61.74345076784101, 'mac_recall': 36.59329176251098, 'mac_f1_score': 41.22860485196713}
+No. 2 ：....
+ner_entity: 
+{'mic_precision': 83.56807511737088, 'mic_recall': 83.6662749706228, 'mic_f1_score': 83.61714621256607, 'mac_precision': 83.60906630413952, 'mac_recall': 83.67104303831027, 'mac_f1_score': 83.61744648199398}
+ rec: 
+{'mic_precision': 69.65442764578835, 'mic_recall': 64.88933601609658, 'mic_f1_score': 67.1875, 'mac_precision': 68.27223643080421, 'mac_recall': 45.20981209667935, 'mac_f1_score': 49.5441885905379}
+No. 3 ：....
+ner_entity: 
+{'mic_precision': 83.2187857961054, 'mic_recall': 85.3701527614571, 'mic_f1_score': 84.28074245939675, 'mac_precision': 83.21996134330062, 'mac_recall': 85.3726636030224, 'mac_f1_score': 84.28029111419379}
+ rec: 
+{'mic_precision': 69.0711462450593, 'mic_recall': 70.32193158953723, 'mic_f1_score': 69.69092721834497, 'mac_precision': 64.83770404013562, 'mac_recall': 52.13702353417749, 'mac_f1_score': 55.112143437251405}
