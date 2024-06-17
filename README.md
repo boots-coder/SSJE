@@ -79,3 +79,11 @@ here are some notes !
 - all pip install (suggest conda install replaced)
 - all tools should be latest ignoring the fucking requirements and ablove all
 - run the test.py in trainer first
+- use python == 11
+
+## MORE INFO 
+- windows 10 
+- nvcc --version outputs is:
+Cuda compilation tools, release 12.2, V12.2.91
+Build cuda_12.2.r12.2/compiler.32965470_0
+- torch v = 2.3.0+cu118

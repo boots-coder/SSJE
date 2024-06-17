@@ -33,3 +33,5 @@ if cuda_available:
     print(f"Current GPU Name: {gpu_name}")
 import torch
 print(torch.version.cuda)
+import torch
+print(torch.__version__)
