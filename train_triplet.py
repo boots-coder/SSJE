@@ -64,10 +64,11 @@ class SSJETrainer(BaseTrainer):
         input_reader, model_class, updates_total,updates_epoch = self._preprocess(args, input_reader_cls,types_path,train_path, test_path)
         train_dataset = input_reader.get_dataset(train_label)
         test_dataset = input_reader.get_dataset(test_label)
-
-        # load model
-        config = BertConfig.from_pretrained(self.args.pretrained_bert_name)
-        model = model_class.from_pretrained(self.args.pretrained_bert_name,
+        model_name = "bert-base-uncased"  # 可以选择其他的预训练模型
+        # 使用本地路径加载预训练的 BERT 模型
+        # local_model_path = "D:/bert-base-uncased"
+        config = BertConfig.from_pretrained(model_name)
+        model = model_class.from_pretrained(model_name,
                                             config=config,
                                             cls_token=self._tokenizer.convert_tokens_to_ids('[CLS]'),
                                             sentiment_types=input_reader.sentiment_type_count - 1,
@@ -76,6 +77,7 @@ class SSJETrainer(BaseTrainer):
                                             prop_drop=self.args.prop_drop,
                                             size_embedding=self.args.size_embedding,
                                             freeze_transformer=self.args.freeze_transformer)
+
         # print("...............",self.args.model_name)
         model.to(args.device)
         # create optimizer

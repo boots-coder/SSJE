@@ -1,0 +1,10 @@
+No. 1 ：....
+ner_entity: 
+{'mic_precision': 77.98913043478261, 'mic_recall': 84.31257344300822, 'mic_f1_score': 81.02766798418972, 'mac_precision': 78.27819163302482, 'mac_recall': 84.30181498829039, 'mac_f1_score': 81.04766039805868}
+ rec: 
+{'mic_precision': 62.588473205257834, 'mic_recall': 62.273641851106646, 'mic_f1_score': 62.43066061522945, 'mac_precision': 39.76339491116279, 'mac_recall': 38.38389739737651, 'mac_f1_score': 38.764198291802415}
+No. 2 ：....
+ner_entity: 
+{'mic_precision': 85.19417475728154, 'mic_recall': 82.49118683901293, 'mic_f1_score': 83.82089552238806, 'mac_precision': 85.19935894036614, 'mac_recall': 82.49014073615837, 'mac_f1_score': 83.82131104533453}
+ rec: 
+{'mic_precision': 71.29032258064515, 'mic_recall': 66.70020120724345, 'mic_f1_score': 68.91891891891892, 'mac_precision': 67.40231607986745, 'mac_recall': 49.47851000932835, 'mac_f1_score': 51.045142151683734}

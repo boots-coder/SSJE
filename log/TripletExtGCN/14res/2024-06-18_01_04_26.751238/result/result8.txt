@@ -1,0 +1,5 @@
+No. 1 ：....
+ner_entity: 
+{'mic_precision': 81.58522050059595, 'mic_recall': 80.43478260869566, 'mic_f1_score': 81.00591715976331, 'mac_precision': 81.65410912609478, 'mac_recall': 80.4301897839247, 'mac_f1_score': 81.00976939683633}
+ rec: 
+{'mic_precision': 62.84889316650626, 'mic_recall': 65.69416498993964, 'mic_f1_score': 64.24003935071323, 'mac_precision': 37.88749297788672, 'mac_recall': 43.11674943315389, 'mac_f1_score': 40.32325830030887}
