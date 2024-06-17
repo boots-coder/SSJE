@@ -76,7 +76,7 @@ python train_triplet.py --dataset 14res --max_span_size 8
 the original code just like shit !
 here are some notes !
 
-- all pip install (suggest conda install replaced)
+- all pip install (suggest replaced by conda install )
 - all tools should be latest ignoring the fucking requirements and ablove all
 - run the test.py in trainer first
 - use python == 11
